@@ -20,62 +20,76 @@
         <a><img src="fullLogo.png" alt="Логотип барбершопа Бородинский"></a>
       </nav>
     </header>
-    <section class="advantages">
-      <h2 class="invisible">Принципы нашей работы.</h2>
-      <ul>
-        <li>
-          <h3>Быстро</h3>
-          <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стрижки-минутки!</p>
-        </li>
-        <li>
-          <h3>Круто</h3>
-          <p>Забудьте, как вы стриглись раньше. мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
-        </li>
-        <li>
-          <h3>Дорого</h3>
-          <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
-        </li>
-      </ul>
-    </section>
-    <div class="commonDiv">
-      <article class="news-block">
-        <h2>Новости</h2>
-        <ol>
+    <main>
+      <section class="advantages">
+        <h2 class="invisible">Принципы нашей работы.</h2>
+        <ul>
           <li>
-            <div class="news-div">
-              <p class="news-text">Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
-              <span class="news-date">11 января</span>
-            </div>
+            <h3>Быстро</h3>
+            <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стрижки-минутки!</p>
           </li>
           <li>
-            <div class="news-div">
-              <p class="news-text">В нашей команде пополнение, Борис «бритва» Стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
-              <span class="news-date">18 января</span>
-            </div>
+            <h3>Круто</h3>
+            <p>Забудьте, как вы стриглись раньше. мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
           </li>
-        </ol>
-        <a href="news.html">
-          <span class="invisible">Все новости</span>
-        </a>
-      </article>
-      <article class="photogallery-block">
-        <h2>Фотогалерея</h2>
-        <div class="photogallery-div">
-          <img src="photo1.jpg" alt="Интерьер в отражении зеркал">
-        </div>
-        <nav class="photogallery-menu">
+          <li>
+            <h3>Дорого</h3>
+            <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+          </li>
+        </ul>
+      </section>
+      <div class="commonDiv">
+        <article class="news-block">
+          <h2>Новости</h2>
+          <ol>
+            <li>
+              <div class="news-div">
+                <p class="news-text">Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+                <span class="news-date">11 января</span>
+              </div>
+            </li>
+            <li>
+              <div class="news-div">
+                <p class="news-text">В нашей команде пополнение, Борис «бритва» Стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
+                <span class="news-date">18 января</span>
+              </div>
+            </li>
+          </ol>
+          <a href="news.html">
+            <span class="invisible">Все новости</span>
+          </a>
+        </article>
+        <article class="photogallery-block">
+          <h2>Фотогалерея</h2>
+          <div class="photogallery-div">
+            <img src="photo1.jpg" alt="Интерьер в отражении зеркал">
+          </div>
+          <nav class="photogallery-menu">
+            <ul>
+              <li>
+                <button type="button" class="photogallery-button" value="Назад" name="photogallery-menu-button photogallery-prev"></button>
+              </li>
+              <li>
+                <button type="button" class="photogallery-button" value="Вперед" name="photogallery-menu-button photogallery-next"></button>
+              </li>
+            </ul>
+          </nav>
+        </article>
+      </div>
+      <div class="commonDiv">
+        <section class="appointment">
+          <h2>Записаться</h2>
+          <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
           <ul>
-            <li>
-              <button type="button" class="photogallery-button" value="Назад" name="photogallery-menu-button photogallery-prev"></button>
-            </li>
-            <li>
-              <button type="button" class="photogallery-button" value="Вперед" name="photogallery-menu-button photogallery-next"></button>
-            </li>
+            <li>Дата</li>
+            <li>Время</li>
+            <li>Ваше имя</li>
+            <li>Телефон</li>
           </ul>
-        </nav>
-      </article>
-    </div>
-    <div class="commonDiv">
+        </section>
+      </div>
+    </main>
+    <footer>
       <section class="contacts">
         <h2>Контактная информация</h2>
         <p class="contacts-adress">
@@ -103,16 +117,6 @@
           </ul>
         </nav>
       </section>
-      <section class="appointment">
-        <h2>Записаться</h2>
-        <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-        <ul>
-          <li>Дата</li>
-          <li>Время</li>
-          <li>Ваше имя</li>
-          <li>Телефон</li>
-        </ul>
-      </section>
-    </div>
+    </footer>
   </body>
 </html>
